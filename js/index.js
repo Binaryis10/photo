@@ -102,10 +102,10 @@
 			element.className = 'element';
 			element.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
 
-			element.style.backgroundImage = 'url("/photo/images/small/photo'+ (i/5 + 1) +'.JPG")';
+			element.style.backgroundImage = 'url("images/small/photo'+ (i/5 + 1) +'.JPG")';
 			// element.style.backgroundSize = 'cover';
 			element.title = '高一12班3D游演示相册 - '+ (i/5 + 1) +'/'+ (table.length/5);
-			element.setAttribute('href', '/photo/images/small/photo'+ (i/5 + 1) +'.JPG');
+			element.setAttribute('href', 'images/small/photo'+ (i/5 + 1) +'.JPG');
 			
 			// var number = document.createElement( 'div' );
 			// number.className = 'number';
